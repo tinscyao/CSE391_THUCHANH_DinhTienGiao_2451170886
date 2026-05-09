@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+header{
+    background-color: var(--color-light);
+    width: 100%;
+    font-family: var(--font-main);
+    margin-top: 10px;
+}
+.logo{
+    color: var(--color-primary);
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+nav{
+    display: flex;
+    align-items: center;
+}
+ a{
+    color: var(--color-text);
+    text-decoration: none;
+    font-size: 10px;
+    margin-right: 20px;
+}
+header .iner-grap {
+   display: flex;
+}
+header .iner-grap .menu {
+  position: absolute;
+  right: 20px;
+}
