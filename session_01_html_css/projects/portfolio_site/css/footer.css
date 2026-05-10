@@ -1,0 +1,121 @@
+/* ===== FOOTER ===== */
+
+footer{
+    background: #18253d;
+    padding: 60px 0 25px;
+    font-family: Arial, sans-serif;
+}
+
+footer .container{
+    width: 92%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+/* ===== TOP FOOTER ===== */
+
+.footer1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+/* ===== LOGO ===== */
+
+.name span{
+    font-size: 42px;
+    font-weight: 700;
+    color: white;
+}
+
+/* ===== TEXT ===== */
+
+.paragraph p{
+    color: #aeb6c5;
+    font-size: 18px;
+}
+
+/* ===== ICONS ===== */
+
+.icon{
+    display: flex;
+    gap: 18px;
+}
+
+.icon i{
+    width: 50px;
+    height: 50px;
+    background: rgba(255,255,255,0.1);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.icon i:hover{
+    transform: translateY(-4px);
+    background: #4f46e5;
+}
+
+/* ===== BOTTOM FOOTER ===== */
+
+.footer2{
+    padding-top: 25px;
+}
+
+.footer2 p{
+    color: #9ca3af;
+    font-size: 15px;
+}
+
+/* ===== FLOATING BUTTON ===== */
+
+.icon11{
+    position: fixed;
+    right: 25px;
+    bottom: 25px;
+    width: 55px;
+    height: 55px;
+    background: #4f46e5;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transition: 0.3s;
+}
+
+.icon11 i{
+    color: white;
+    font-size: 22px;
+}
+
+.icon11:hover{
+    transform: scale(1.1);
+}
+
+/* ===== RESPONSIVE ===== */
+
+@media (max-width: 768px){
+
+    .footer1{
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+
+    .name span{
+        font-size: 34px;
+    }
+
+    .paragraph p{
+        font-size: 16px;
+    }
+}
