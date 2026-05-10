@@ -1,4 +1,3 @@
-/* ===== FOOTER ===== */
 
 footer{
     background: #18253d;
@@ -8,36 +7,32 @@ footer{
 
 footer .container{
     width: 92%;
-    max-width: 1200px;
-    margin: auto;
 }
-
-/* ===== TOP FOOTER ===== */
 
 .footer1{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding-bottom: 40px;
+    margin-left: 35px;
     border-bottom: 1px solid rgba(255,255,255,0.1);
 }
-
-/* ===== LOGO ===== */
 
 .name span{
     font-size: 42px;
     font-weight: 700;
     color: white;
+    padding: 30px ;
 }
 
-/* ===== TEXT ===== */
+
 
 .paragraph p{
     color: #aeb6c5;
     font-size: 18px;
 }
 
-/* ===== ICONS ===== */
+
 
 .icon{
     display: flex;
@@ -63,7 +58,7 @@ footer .container{
     background: #4f46e5;
 }
 
-/* ===== BOTTOM FOOTER ===== */
+
 
 .footer2{
     padding-top: 25px;
@@ -74,7 +69,7 @@ footer .container{
     font-size: 15px;
 }
 
-/* ===== FLOATING BUTTON ===== */
+
 
 .icon11{
     position: fixed;
@@ -101,7 +96,7 @@ footer .container{
     transform: scale(1.1);
 }
 
-/* ===== RESPONSIVE ===== */
+
 
 @media (max-width: 768px){
 
