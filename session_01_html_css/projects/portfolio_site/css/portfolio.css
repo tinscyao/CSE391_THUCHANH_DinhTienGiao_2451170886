@@ -73,7 +73,22 @@
     border: 2px solid var(--color-primary);
 }
 
-
+.portfolio .container .inner-wrap .item-1:hover{
+    background-color: var(--color-primary);
+    color:white;
+}
+.portfolio .container .inner-wrap .item-2:hover{
+    background-color: var(--color-primary);
+    color:white;
+}
+.portfolio .container .inner-wrap .item-3:hover{
+    background-color: var(--color-primary);
+    color:white;
+}
+.portfolio .container .inner-wrap .item-4:hover{
+    background-color: var(--color-primary);
+    color:white;
+}
 
 .portfolio .image .inner-wrap{
     display:flex;
@@ -88,6 +103,7 @@
     height: 200px;
     background-size: cover;
     margin-left: 40px;
+    
 }
 .portfolio .image .inner-wrap .image-2 img{
     border-radius: 20px;
@@ -131,3 +147,19 @@
     margin-right:40px;
 }
 
+[class^="image-"] {
+    overflow: hidden;    
+    border-radius: 20px;
+    display: block;      
+}
+
+[class^="image-"] img {
+    width: 100%;         
+    height: auto;
+    display: block;
+    transition: transform 0.5s ease;
+}
+
+[class^="image-"]:hover img {
+    transform: scale(1.1); 
+}
