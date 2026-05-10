@@ -7,7 +7,7 @@
 
 .contact-section .container{
     width: 90%;
-    max-width: 1200px;
+    
     margin: auto;
 }
 
@@ -24,13 +24,16 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    gap: 60px;
+    gap: 20%;
+    
 }
 
 
 .contact-info{
     flex: 1;
     padding-top: 30px;
+    max-width: 30%;
+    margin-left: 10%;
 }
 
 .contact-info h3{
@@ -44,6 +47,7 @@
     line-height: 1.8;
     margin-bottom: 40px;
     max-width: 350px;
+    font-size: 15px;
 }
 
 .info-item{
@@ -66,6 +70,7 @@
     padding: 40px;
     border-radius: 16px;
     box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    max-width: 40%;
 }
 
 .form-group{
@@ -134,4 +139,7 @@
 .form-group input:invalid,
 .form-group textarea:invalid{
     border-color: red;
+}
+.form-group textarea{
+    resize: none;
 }
