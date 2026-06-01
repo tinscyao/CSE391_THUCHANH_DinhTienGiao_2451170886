@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tier 1: Hiểu luồng React</title>
+
+    <!-- React CDN -->
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="root"></div>
+
+    <!-- Components (thứ tự import quan trọng - component con trước) -->
+    <script type="text/babel" src="components/LifecycleDemo.js"></script>
+    <script type="text/babel" src="components/BadCounter.js"></script>
+    <script type="text/babel" src="components/GoodCounter.js"></script>
+    <script type="text/babel" src="components/CompareTable.js"></script>
+    <script type="text/babel" src="components/FlowDemo.js"></script>
+    <script type="text/babel" src="components/App.js"></script>
+
+    <!-- Render App -->
+    <script type="text/babel">
+        const root = ReactDOM.createRoot(document.getElementById("root"));
+        root.render(<App />);
+    </script>
+</body>
+
+</html>
